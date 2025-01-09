@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #6A1B9A, #9C27B0)", // Softer gradient colors
-        color: "#fff",
+        background: "linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%)",
+        color: "#1a365d",
         textAlign: "center",
         minHeight: "100vh",
         display: "flex",
@@ -15,49 +15,47 @@ export default function Home() {
         padding: "40px",
       }}
     >
-      {/* Welcome Message Section */}
-      <h1 style={{ fontSize: "4rem", marginBottom: "20px", fontWeight: "bold", letterSpacing: "1px" }}>
+      <h1 style={{ 
+        fontSize: "4rem", 
+        marginBottom: "22px", 
+        fontWeight: "bold", 
+        letterSpacing: "1px",
+        color: "#1a365d",
+        textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
+      }}>
         Welcome to Virtual Tourism
       </h1>
-      <p style={{ fontSize: "1.5rem", marginBottom: "30px" }}>
-        Explore the world’s top tourist destinations, travel through immersive VR videos and
+      <p style={{ 
+        fontSize: "2rem", 
+        marginBottom: "79px",
+        color: "#2d4ed8"
+      }}>
+        Explore the world's top tourist destinations, travel through immersive VR videos and
         experience the wonders of the world, all from the comfort of your home!
       </p>
 
-      {/* Enter the Tour Button */}
       <Link href="/catalogue">
         <button
           style={{
             padding: "20px 40px",
             fontSize: "1.5rem",
-            backgroundColor: "#FF6F61", // Softer, more pleasant button color
+            background: "linear-gradient(145deg, #4299e1, #3182ce)",
             color: "#fff",
             border: "none",
             borderRadius: "12px",
             cursor: "pointer",
-            transition: "background-color 0.3s, transform 0.3s",
+            transition: "all 0.3s",
+            boxShadow: "0 6px 20px rgba(66, 153, 225, 0.15)",
+            "&:hover": {
+              background: "linear-gradient(145deg, #3182ce, #2c5282)",
+              transform: "translateY(-2px)",
+              boxShadow: "0 8px 25px rgba(66, 153, 225, 0.25)",
+            },
           }}
         >
           Enter the Tour
         </button>
       </Link>
-
-      {/* Contributors Section */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: "10px",
-          right: "10px",
-          textAlign: "right",
-          fontSize: "2rem", // Increased font size
-        }}
-      >
-        <p>Made by:</p>
-        <p style={{ fontWeight: "bold" }}>Nihaal SP</p>
-        <p style={{ fontWeight: "bold" }}>Puneeth Kumar</p>
-        <p style={{ fontWeight: "bold" }}>Vinay Sinnur</p>
-        <p style={{ fontWeight: "bold" }}>Vinayak Singh</p>
-      </div>
     </div>
   );
 }
