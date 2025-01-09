@@ -31,8 +31,7 @@ export default function Home() {
         marginBottom: "79px",
         color: "#2d4ed8"
       }}>
-        Explore the world's top tourist destinations, travel through immersive VR videos and
-        experience the wonders of the world, all from the comfort of your home!
+        Explore the world&apos;s top tourist destinations, travel through immersive VR videos and experience the wonders of the world, all from the comfort of your home!
       </p>
 
       <Link href="/catalogue">
