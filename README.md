@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Virtual Tourism Web App
 
-## Getting Started
+Welcome to the Virtual Tourism Web App, a next-generation platform where users can explore immersive VR tourism experiences directly from their browser. Powered by Next.js, this web app lets you dive into a range of VR videos, available for viewing with the Meta Quest 2 VR headset. Explore various categories such as urban landscapes, historical monuments, aquatic wonders, and more, all accessible through a sleek, interactive interface.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Immersive VR Experiences**: Select destinations from a brochure and enjoy VR videos, whether real or simulated.
+- **Meta Quest 2 Compatibility**: Designed for seamless interaction with Meta Quest 2, utilizing pinch or controller-based selection.
+- **Interactive Categories**: Explore destinations sorted into engaging categories: urban, historical, monuments, relaxation, thrilling, aquatic, and sports.
+- **User-Friendly Interface**: Browse through categories presented in rows with detailed explanations and video buttons for quick access to VR content.
+- **Demographic-Based Content**: The platform tailors content for different demographics, ensuring an engaging experience for users of all ages.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for building the web app.
+- **Three.js**: WebVR frameworks for delivering immersive VR experiences.
+- **Meta Quest 2**: For interactive VR video viewing via the Quest browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup
 
-## Learn More
+1. Clone this repository to your local machine.
+    ```bash
+    git clone https://github.com/nerdylua/virtual-tourist.git
+    ```
+2. Install the required dependencies.
+    ```bash
+    cd virtual-tourist
+    npm install
+    ```
+3. Run the app locally.
+    ```bash
+    npm run dev
+    ```
+    Visit `http://localhost:3000` in your browser to see the app in action.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Browse Categories**: Click on any category box to see a list of VR experiences. 
+- **View Videos**: Select a video from the available list to experience the VR content in your Meta Quest 2 headset.
+- **Pinch/Controller Navigation**: Use pinch gestures or controllers to interact with the interface when using the Meta Quest 2.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We welcome contributions to enhance this project! Feel free to fork the repository, create a branch, and submit pull requests.
