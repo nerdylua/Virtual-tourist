@@ -1,5 +1,7 @@
-// components/VRScene.jsx
-const VRScene = ({ videoSrc }) => {
+// components/VRScene.tsx
+import { useEffect } from "react";
+
+const VRScene = ({ videoSrc }: { videoSrc: string }) => {
   useEffect(() => {
     require("aframe");
   }, []);
