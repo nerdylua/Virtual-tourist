@@ -24,7 +24,7 @@ const Catalogue = () => {
         "Step back in time and visit ancient monuments, temples, and other historical treasures.",
       videos: [
         { name: "Pyramids of Egypt", videoId: "mOuvAJRknXk" },
-        { name: "The Taj Mahal", videoId: "8HV1JVgqPM0&t=12s" },
+        { name: "The Taj Mahal", videoId: "Bx2S7JpdOp4" },
         { name: "Chichen Itza", videoId: "W7KTl4r00sI" },
       ],
     },
