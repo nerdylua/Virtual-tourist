@@ -123,9 +123,6 @@ const Catalogue = () => {
                 borderRadius: "5px",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                "&:hover": {
-                  backgroundColor: "#2d3748",
-                },
               }}
             >
               Back to Catalogue
@@ -219,10 +216,6 @@ const Catalogue = () => {
                           borderRadius: "5px",
                           cursor: "pointer",
                           transition: "all 0.3s",
-                          "&:hover": {
-                            background: "linear-gradient(145deg, #3182ce, #2c5282)",
-                            transform: "translateY(-2px)",
-                          },
                         }}
                       >
                         {video.name}

@@ -46,11 +46,6 @@ export default function Home() {
             cursor: "pointer",
             transition: "all 0.3s",
             boxShadow: "0 6px 20px rgba(66, 153, 225, 0.15)",
-            "&:hover": {
-              background: "linear-gradient(145deg, #3182ce, #2c5282)",
-              transform: "translateY(-2px)",
-              boxShadow: "0 8px 25px rgba(66, 153, 225, 0.25)",
-            },
           }}
         >
           Enter the Tour
