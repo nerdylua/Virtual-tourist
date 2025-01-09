@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import { useState } from "react";
 
-// Dynamically import the VRScene component
 const VRScene = dynamic(() => import("../components/VRscene"), { ssr: false });
 
 export default function Home() {
