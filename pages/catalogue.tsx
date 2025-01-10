@@ -241,12 +241,12 @@ const Catalogue = () => {
           rel="noopener noreferrer"
           style={{
             textDecoration: "none",
-            fontSize: "1.2rem",
+            fontSize: "1.6rem",
             color: "#2b6cb0",
             fontWeight: "bold",
           }}
         >
-          Chat with our Virtual Assistant
+          Click here to chat with our Virtual Tourist Assistant
         </a>
       </div>
     </div>
