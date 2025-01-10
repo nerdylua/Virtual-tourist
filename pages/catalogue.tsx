@@ -1,6 +1,3 @@
-// pages/catalogue.tsx
-/* eslint-disable react/no-unescaped-entities */
-
 import React, { useState } from "react";
 
 const Catalogue = () => {
@@ -173,7 +170,13 @@ const Catalogue = () => {
                   "0 6px 20px rgba(66, 153, 225, 0.15)";
               }}
             >
-              <h2 style={{ fontSize: "1.8rem", marginBottom: "15px", color: "#2b6cb0" }}>
+              <h2
+                style={{
+                  fontSize: "1.8rem",
+                  marginBottom: "15px",
+                  color: "#2b6cb0",
+                }}
+              >
                 {category.name}
               </h2>
               {selectedCategory === category.name && (
@@ -187,11 +190,13 @@ const Catalogue = () => {
                     border: "1px solid rgba(99, 179, 237, 0.2)",
                   }}
                 >
-                  <p style={{ 
-                    fontSize: "1rem", 
-                    marginBottom: "20px",
-                    color: "#2d4ed8"
-                  }}>
+                  <p
+                    style={{
+                      fontSize: "1rem",
+                      marginBottom: "20px",
+                      color: "#2d4ed8",
+                    }}
+                  >
                     {category.description}
                   </p>
                   <div
@@ -228,6 +233,22 @@ const Catalogue = () => {
           ))}
         </div>
       )}
+
+      <div style={{ marginTop: "40px", textAlign: "center" }}>
+        <a
+          href="https://chatbot-y69cjuqsxtjgkcice2n7vy.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: "none",
+            fontSize: "1.2rem",
+            color: "#2b6cb0",
+            fontWeight: "bold",
+          }}
+        >
+          Chat with our Virtual Assistant
+        </a>
+      </div>
     </div>
   );
 };
