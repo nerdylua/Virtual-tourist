@@ -11,7 +11,7 @@ const Catalogue = () => {
     {
       name: "Urban Cities",
       description:
-        "Explore the bustling streets and iconic landmarks of the world&apos;s most vibrant cities.",
+        "Explore the bustling streets and iconic landmarks of the world's most vibrant cities.",
       videos: [
         { name: "London", videoId: "KGerjHMa90s" },
         { name: "Paris", videoId: "Cnvi6oI3Eno" },
