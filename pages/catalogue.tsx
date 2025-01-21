@@ -14,7 +14,7 @@ const Catalogue = () => {
         { name: "Paris", videoId: "Cnvi6oI3Eno" },
         { name: "New York", videoId: "TRnbMTjjNHQ" },
         { name: "Rajasthan", videoId: "QCCDqtepOLY" },
-        { name: "Mumbai", videoId: "CZHFu2BSZPs" },
+        { name: "Bombay", videoId: "CZHFu2BSZPs" },
       ],
     },
     {
@@ -26,7 +26,7 @@ const Catalogue = () => {
         { name: "The Taj Mahal", videoId: "Bx2S7JpdOp4" },
         { name: "Chichen Itza", videoId: "W7KTl4r00sI" },
         { name: "Angkor Wat", videoId: "B8UzsVY1IE8" },
-        { name: "Tikal mayan ruins", videoId: "v3bDMldpaLs" },
+        { name: "Luxor Ruins", videoId: "ZGWNcvnQQtU" },
       ],
     },
     {
@@ -37,8 +37,6 @@ const Catalogue = () => {
         { name: "Maldives", videoId: "jqq_ZdD5Zwg" },
         { name: "Nature", videoId: "7AkbUfZjS5k" },
         { name: "Night sky", videoId: "XucTpkjQQLc" },
-        { name: "Forest", videoId: "7AkbUfZjS5k" },
-        { name: "Ganges boating", videoId: "6gDBq8M_JOgc" },
       ],
     },
     {
@@ -48,9 +46,7 @@ const Catalogue = () => {
       videos: [
         { name: "Roller coaster", videoId: "oAJLKDMihnU" },
         { name: "Snake Chase", videoId: "X_qfq_xGVwE" },
-        { name: "Fear of Heights", videoId: "rNVpFXuAXIA" },
-        { name: "Scuba diving", videoId: "2OzlksZBTiA" },
-        { name: "Sky diving", videoId: "S5XXsRuMPIU" },
+        { name: "FEAR OF HEIGHTS!", videoId: "rNVpFXuAXIA" },
       ],
     },
     {
@@ -61,7 +57,7 @@ const Catalogue = () => {
         { name: "Lions", videoId: "sPyAQQklc1s" },
         { name: "Elephant Encounter", videoId: "HI7mTIxNotQ" },
         { name: "Antarctica", videoId: "XPhmpfiWEEw" },
-        { name: "Tiger", videoId: "xal78egELos" },
+        { name: "Wild Cats", videoId: "nF8UTFHpmjE" },
       ],
     },
     {
@@ -72,20 +68,7 @@ const Catalogue = () => {
         { name: "Sharks", videoId: "c9YRl7Yu-p8" },
         { name: "Underwater National Park", videoId: "v64KOxKVLVg" },
         { name: "Underwater Life", videoId: "eKumVFvGHFA" },
-        { name: "Hamilton island", videoId: "lJype_TafRk" },
-        { name: "Isle of jaws", videoId: "sT0hVLEe5mU" },
-      ],
-    },
-    {
-      name: "Pilgrimages",
-      description:
-        "Embark on a spiritual journey and explore the ancient temples and holy shrines that connect humanity to the divine across cultures and religions.",
-      videos: [
-        { name: "Mount Everest", videoId: "PnfJDgS9VZc" },
-        { name: "Kedarnath", videoId: "OYiHRowaw2U" },
-        { name: "Golden Temple", videoId: "EBSh4nVtR9s" },
-        { name: "Hamilton island", videoId: "lJype_TafRk" },
-        { name: "Ganga aarti", videoId: "0wY9A5oji1E" },
+        { name: "Buck Island", videoId: "v64KOxKVLVg" },
       ],
     },
   ];
