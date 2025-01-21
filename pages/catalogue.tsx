@@ -13,6 +13,8 @@ const Catalogue = () => {
         { name: "London", videoId: "KGerjHMa90s" },
         { name: "Paris", videoId: "Cnvi6oI3Eno" },
         { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "Japan", videoId: "plDirbEb6Y8" },
+        { name: "Ventce", videoId: "3Zz7M2vLHJ8" },
       ],
     },
     {
@@ -23,6 +25,8 @@ const Catalogue = () => {
         { name: "Pyramids of Egypt", videoId: "mOuvAJRknXk" },
         { name: "The Taj Mahal", videoId: "Bx2S7JpdOp4" },
         { name: "Chichen Itza", videoId: "W7KTl4r00sI" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -33,6 +37,8 @@ const Catalogue = () => {
         { name: "Maldives", videoId: "jqq_ZdD5Zwg" },
         { name: "Nature", videoId: "7AkbUfZjS5k" },
         { name: "Night sky", videoId: "XucTpkjQQLc" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -43,6 +49,8 @@ const Catalogue = () => {
         { name: "Roller coaster", videoId: "oAJLKDMihnU" },
         { name: "Snake Chase", videoId: "X_qfq_xGVwE" },
         { name: "FEAR OF HEIGHTS", videoId: "rNVpFXuAXIA" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -53,6 +61,8 @@ const Catalogue = () => {
         { name: "Lions", videoId: "sPyAQQklc1s" },
         { name: "Elephant Encounter", videoId: "HI7mTIxNotQ" },
         { name: "Antarctica", videoId: "XPhmpfiWEEw" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -63,6 +73,8 @@ const Catalogue = () => {
         { name: "Sharks", videoId: "c9YRl7Yu-p8" },
         { name: "Underwater National Park", videoId: "v64KOxKVLVg" },
         { name: "Underwater Life", videoId: "eKumVFvGHFA" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
   ];
@@ -76,8 +88,8 @@ const Catalogue = () => {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #F3F3F3 0%, #C5E898 100%)",
-        color: "#0766AD",
+        background: "linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%)",
+        color: "#2d3748",
         padding: "40px",
         minHeight: "100vh",
       }}
@@ -87,7 +99,7 @@ const Catalogue = () => {
           textAlign: "center",
           fontSize: "5rem",
           marginBottom: "30px",
-          color: "#0766AD",
+          color: "#1a365d",
           textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
         }}
       >
@@ -114,7 +126,7 @@ const Catalogue = () => {
               onClick={() => setSelectedVideo(null)}
               style={{
                 padding: "10px 20px",
-                backgroundColor: "#29ADB2",
+                backgroundColor: "#4a5568",
                 color: "#fff",
                 border: "none",
                 borderRadius: "5px",
@@ -145,7 +157,7 @@ const Catalogue = () => {
                 )
               }
               style={{
-                background: "linear-gradient(145deg, #ffffff, #F3F3F3)",
+                background: "linear-gradient(145deg, #ffffff, #f0f4ff)",
                 padding: "40px",
                 borderRadius: "12px",
                 textAlign: "center",
@@ -174,7 +186,7 @@ const Catalogue = () => {
                 style={{
                   fontSize: "1.8rem",
                   marginBottom: "15px",
-                  color: "#0766AD",
+                  color: "#2b6cb0",
                 }}
               >
                 {category.name}
@@ -194,7 +206,7 @@ const Catalogue = () => {
                     style={{
                       fontSize: "1rem",
                       marginBottom: "20px",
-                      color: "#0766AD",
+                      color: "#2d4ed8",
                     }}
                   >
                     {category.description}
@@ -215,7 +227,7 @@ const Catalogue = () => {
                         }}
                         style={{
                           padding: "10px 20px",
-                          background: "linear-gradient(145deg, #29ADB2, #0766AD)",
+                          background: "linear-gradient(145deg, #4299e1, #3182ce)",
                           color: "#fff",
                           border: "none",
                           borderRadius: "5px",
@@ -242,7 +254,7 @@ const Catalogue = () => {
           style={{
             textDecoration: "none",
             fontSize: "1.6rem",
-            color: "#0766AD",
+            color: "#2b6cb0",
             fontWeight: "bold",
           }}
         >
