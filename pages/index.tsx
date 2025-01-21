@@ -51,7 +51,7 @@ export default function Home() {
 
       <h1
         style={{
-          fontSize: "6rem",
+          fontSize: "5.5rem",
           marginBottom: "22px",
           fontWeight: "800",
           letterSpacing: "1px",
@@ -64,7 +64,7 @@ export default function Home() {
       </h1>
       <p
         style={{
-          fontSize: "2.3rem",
+          fontSize: "2.05rem",
           marginBottom: "79px",
           color: "#889E73",
           fontFamily: "'Dancing Script', cursive",
