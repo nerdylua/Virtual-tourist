@@ -5,12 +5,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #EFB036;
+  --secondary: #3B6790;
+  --tertiary: #23486A;
+  --accent: #4C7B8B;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #EFB036; /* Keep these same to maintain consistency */
+    --secondary: #3B6790;
+    --tertiary: #23486A;
+    --accent: #4C7B8B;
   }
 }
 
@@ -18,4 +26,46 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Adding Tailwind CSS Plugin for custom colors */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .bg-tertiary {
+    background-color: var(--tertiary);
+  }
+  .bg-accent {
+    background-color: var(--accent);
+  }
+
+  .text-primary {
+    color: var(--primary);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+  .text-tertiary {
+    color: var(--tertiary);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
+
+  .border-primary {
+    border-color: var(--primary);
+  }
+  .border-secondary {
+    border-color: var(--secondary);
+  }
+  .border-tertiary {
+    border-color: var(--tertiary);
+  }
+  .border-accent {
+    border-color: var(--accent);
+  }
 }
