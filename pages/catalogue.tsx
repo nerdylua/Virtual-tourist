@@ -26,7 +26,7 @@ const Catalogue = () => {
         { name: "The Taj Mahal", videoId: "Bx2S7JpdOp4" },
         { name: "Chichen Itza", videoId: "W7KTl4r00sI" },
         { name: "Angkor Wat", videoId: "B8UzsVY1IE8" },
-        { name: "Tikal mayan ruins", videoId: "v3bDMldpaLs" },
+        { name: "Luxor ruins", videoId: "ZGWNcvnQQtU" },
       ],
     },
     {
@@ -38,7 +38,7 @@ const Catalogue = () => {
         { name: "Nature", videoId: "7AkbUfZjS5k" },
         { name: "Night sky", videoId: "XucTpkjQQLc" },
         { name: "Forest", videoId: "7AkbUfZjS5k" },
-        { name: "Ganges boating", videoId: "6gDBq8M_JOgc" },
+        { name: "Galaxy", videoId: "3offgJ5kSM0" },
       ],
     },
     {
@@ -61,7 +61,7 @@ const Catalogue = () => {
         { name: "Lions", videoId: "sPyAQQklc1s" },
         { name: "Elephant Encounter", videoId: "HI7mTIxNotQ" },
         { name: "Antarctica", videoId: "XPhmpfiWEEw" },
-        { name: "Tiger", videoId: "xal78egELos" },
+        { name: "Tiger", videoId: "nF8UTFHpmjE" },
       ],
     },
     {
@@ -84,7 +84,6 @@ const Catalogue = () => {
         { name: "Mount Everest", videoId: "PnfJDgS9VZc" },
         { name: "Kedarnath", videoId: "OYiHRowaw2U" },
         { name: "Golden Temple", videoId: "EBSh4nVtR9s" },
-        { name: "Hamilton island", videoId: "lJype_TafRk" },
         { name: "Ganga aarti", videoId: "0wY9A5oji1E" },
       ],
     },
