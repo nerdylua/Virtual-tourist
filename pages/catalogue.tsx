@@ -85,6 +85,7 @@ const Catalogue = () => {
         { name: "Kedarnath", videoId: "OYiHRowaw2U" },
         { name: "Golden Temple", videoId: "EBSh4nVtR9s" },
         { name: "Ganga aarti", videoId: "0wY9A5oji1E" },
+        { name: "Tibet", videoId: "50NFDFTTXME" },
       ],
     },
   ];
@@ -98,8 +99,9 @@ const Catalogue = () => {
   return (
     <div
       style={{
-        background: "linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%)",
-        color: "#2d3748",
+        background: `url('1.jpg') no-repeat center center fixed`,
+        backgroundSize: "cover",
+        color: "#482d2d",
         padding: "40px",
         minHeight: "100vh",
       }}
@@ -107,10 +109,10 @@ const Catalogue = () => {
       <h1
         style={{
           textAlign: "center",
-          fontSize: "5rem",
+          fontSize: "5.3rem",
           marginBottom: "30px",
-          color: "#1a365d",
-          textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
+          color: "#f9fa9b",
+          textShadow: "7px 7px 7px rgb(0,0,0)",
         }}
       >
         Tourism Catalogue
@@ -139,7 +141,7 @@ const Catalogue = () => {
                 backgroundColor: "#4a5568",
                 color: "#fff",
                 border: "none",
-                borderRadius: "5px",
+                borderRadius: "80px",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
               }}
@@ -167,7 +169,7 @@ const Catalogue = () => {
                 )
               }
               style={{
-                background: "linear-gradient(145deg, #ffffff, #f0f4ff)",
+                background: "linear-gradient(145deg, #ffffff, #d3dbf0)",
                 padding: "40px",
                 borderRadius: "12px",
                 textAlign: "center",
@@ -182,7 +184,7 @@ const Catalogue = () => {
                 border: "1px solid rgba(99, 179, 237, 0.2)",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "scale(1.05)";
+                e.currentTarget.style.transform = "scale(1.073)";
                 e.currentTarget.style.boxShadow =
                   "0 8px 25px rgba(66, 153, 225, 0.25)";
               }}
@@ -194,9 +196,9 @@ const Catalogue = () => {
             >
               <h2
                 style={{
-                  fontSize: "1.8rem",
+                  fontSize: "1.91rem",
                   marginBottom: "15px",
-                  color: "#2b6cb0",
+                  color: "#226fbf",
                 }}
               >
                 {category.name}
@@ -214,9 +216,9 @@ const Catalogue = () => {
                 >
                   <p
                     style={{
-                      fontSize: "1rem",
+                      fontSize: "1.3rem",
                       marginBottom: "20px",
-                      color: "#2d4ed8",
+                      color: "#2443c7",
                     }}
                   >
                     {category.description}
@@ -240,7 +242,7 @@ const Catalogue = () => {
                           background: "linear-gradient(145deg, #4299e1, #3182ce)",
                           color: "#fff",
                           border: "none",
-                          borderRadius: "5px",
+                          borderRadius: "8px",
                           cursor: "pointer",
                           transition: "all 0.3s",
                         }}
@@ -257,19 +259,27 @@ const Catalogue = () => {
       )}
 
       <div style={{ marginTop: "40px", textAlign: "center" }}>
-        <a
-          href="https://chatbot-y69cjuqsxtjgkcice2n7vy.streamlit.app/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() =>
+            window.open(
+              "https://chatbot-y69cjuqsxtjgkcice2n7vy.streamlit.app/",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
           style={{
-            textDecoration: "none",
-            fontSize: "1.6rem",
-            color: "#2b6cb0",
+            padding: "10px 20px",
+            fontSize: "1.7rem",
+            color: "#FFFFFF",
+            backgroundColor: "#ad1045",
+            border: "none",
+            borderRadius: "5px",
             fontWeight: "bold",
+            cursor: "pointer",
           }}
         >
-          Click here to chat with our Virtual Tourist Assistant
-        </a>
+          Chat with our Virtual Tourist Assistant
+        </button>
       </div>
     </div>
   );

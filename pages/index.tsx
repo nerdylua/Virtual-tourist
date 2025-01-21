@@ -42,7 +42,7 @@ export default function Home() {
           height: "100%",
           objectFit: "cover",
           zIndex: -1,
-          opacity: 0.6, 
+          opacity: 0.535, 
         }}
       >
         <source src="/background.mp4" type="video/mp4" />
@@ -51,11 +51,11 @@ export default function Home() {
 
       <h1
         style={{
-          fontSize: "5.1rem",
+          fontSize: "5.13rem",
           marginBottom: "22px",
           fontWeight: "800",
           letterSpacing: "1px",
-          color: "#fde7bb",
+          color: "#f9fa9b",
           textShadow: "7px 7px 7px rgb(0,0,0)",
           fontFamily: "'Pacifico', straight",
         }}
@@ -64,9 +64,9 @@ export default function Home() {
       </h1>
       <p
         style={{
-          fontSize: "1.91rem",
+          fontSize: "1.981rem",
           marginBottom: "79px",
-          color: "#889E73",
+          color: "#d3215d",
           fontFamily: "'Dancing Script', cursive",
           lineHeight: "1.6",
           textShadow: "5px 5px 5px rgb(0,0,0)",
@@ -79,7 +79,7 @@ export default function Home() {
         <button
           style={{
             padding: "20px 40px",
-            fontSize: "1.5rem",
+            fontSize: "1.8rem",
             background: "linear-gradient(145deg, #4299e1, #3182ce)",
             color: "#fff",
             border: "none",
