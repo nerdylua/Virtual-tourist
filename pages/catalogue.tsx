@@ -13,6 +13,8 @@ const Catalogue = () => {
         { name: "London", videoId: "KGerjHMa90s" },
         { name: "Paris", videoId: "Cnvi6oI3Eno" },
         { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -23,6 +25,8 @@ const Catalogue = () => {
         { name: "Pyramids of Egypt", videoId: "mOuvAJRknXk" },
         { name: "The Taj Mahal", videoId: "Bx2S7JpdOp4" },
         { name: "Chichen Itza", videoId: "W7KTl4r00sI" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -33,6 +37,8 @@ const Catalogue = () => {
         { name: "Maldives", videoId: "jqq_ZdD5Zwg" },
         { name: "Nature", videoId: "7AkbUfZjS5k" },
         { name: "Night sky", videoId: "XucTpkjQQLc" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
+        { name: "", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -43,6 +49,8 @@ const Catalogue = () => {
         { name: "Roller coaster", videoId: "oAJLKDMihnU" },
         { name: "Snake Chase", videoId: "X_qfq_xGVwE" },
         { name: "FEAR OF HEIGHTS", videoId: "rNVpFXuAXIA" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -53,6 +61,8 @@ const Catalogue = () => {
         { name: "Lions", videoId: "sPyAQQklc1s" },
         { name: "Elephant Encounter", videoId: "HI7mTIxNotQ" },
         { name: "Antarctica", videoId: "XPhmpfiWEEw" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
     {
@@ -63,6 +73,8 @@ const Catalogue = () => {
         { name: "Sharks", videoId: "c9YRl7Yu-p8" },
         { name: "Underwater National Park", videoId: "v64KOxKVLVg" },
         { name: "Underwater Life", videoId: "eKumVFvGHFA" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
+        { name: "New York", videoId: "TRnbMTjjNHQ" },
       ],
     },
   ];
