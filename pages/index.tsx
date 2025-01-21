@@ -42,7 +42,7 @@ export default function Home() {
           height: "100%",
           objectFit: "cover",
           zIndex: -1,
-          opacity: 0.5, // Adjust opacity here
+          opacity: 0.6, 
         }}
       >
         <source src="/background.mp4" type="video/mp4" />
@@ -51,7 +51,7 @@ export default function Home() {
 
       <h1
         style={{
-          fontSize: "5.5rem",
+          fontSize: "5.1rem",
           marginBottom: "22px",
           fontWeight: "800",
           letterSpacing: "1px",
@@ -64,7 +64,7 @@ export default function Home() {
       </h1>
       <p
         style={{
-          fontSize: "2.05rem",
+          fontSize: "1.91rem",
           marginBottom: "79px",
           color: "#889E73",
           fontFamily: "'Dancing Script', cursive",
