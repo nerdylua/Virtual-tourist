@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div
       style={{
-        background: radial-gradient(circle, #0766AD, #29ADB2), repeating-linear-gradient(45deg, #C5E898, #F3F3F3),
-        color: "#0766AD",
+        background: `radial-gradient(circle, #1230AE, #6C48C5), repeating-linear-gradient(45deg, #C68FE6, #FFF7F7)`,
+        color: "#1230AE",
         textAlign: "center",
         minHeight: "100vh",
         display: "flex",
@@ -21,7 +21,7 @@ export default function Home() {
           marginBottom: "20px",
           fontWeight: "700",
           letterSpacing: "2px",
-          color: "#0766AD",
+          color: "#1230AE",
           textShadow: "3px 3px 5px rgba(0,0,0,0.1)",
         }}
       >
@@ -31,7 +31,7 @@ export default function Home() {
         style={{
           fontSize: "1.6rem",
           marginBottom: "60px",
-          color: "#29ADB2",
+          color: "#6C48C5",
         }}
       >
         Explore the world&apos;s top tourist destinations, travel through
@@ -44,13 +44,13 @@ export default function Home() {
           style={{
             padding: "18px 36px",
             fontSize: "1.4rem",
-            background: "linear-gradient(145deg, #29ADB2, #0766AD)",
+            background: "linear-gradient(145deg, #6C48C5, #1230AE)",
             color: "#fff",
             border: "none",
             borderRadius: "50px",
             cursor: "pointer",
             transition: "all 0.3s ease",
-            boxShadow: "0 8px 25px rgba(41, 173, 178, 0.2)",
+            boxShadow: "0 8px 25px rgba(108, 72, 197, 0.2)",
             transform: "scale(1)",
           }}
           onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
