@@ -53,7 +53,7 @@ export default function Home() {
             boxShadow: "0 8px 25px rgba(108, 72, 197, 0.2)",
             transform: "scale(1)",
           }}
-          onMouseOver={(e) => (e.target.style.transform = "scale(1.05)")}
+          onMouseOver={(e) => (e.target.style.transform = "scale(1)")}
           onMouseOut={(e) => (e.target.style.transform = "scale(1)")}
         >
           Enter the Tour
